@@ -1,4 +1,22 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-primary-dark: #043873;
+  --color-primary-light: #4f9cf9;
+  --color-accent-yellow: #ffe492;
+  --color-accent-blue: #a7cefc;
+  --color-accent-white: #ffffff;
+  --color-accent-dark: #212529;
+
+  --font-inter: var(--font-inter, 'Inter', sans-serif);
+
+  /* Breapoints personalizate conform specificației din Figma */
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1152px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 1920px;
+}
 
 :root {
   --background: #ffffff;
