@@ -114,8 +114,8 @@ export default function Navbar() {
   };
 
   return (
-    <header className="w-full h-[60px] bg-white relative z-50 border-b border-gray-100">
-      <div className="max-w-[1480px] w-full h-full mx-auto flex items-center justify-between px-4 lg:px-8">
+    <header className="w-full h-[60px] bg-white relative z-50">
+      <div className="max-w-[1480px] w-full h-full mx-auto flex items-center justify-between px-4 lg:px-8 pt-4">
         {/* Logo */}
         <Link
           href="/"
@@ -129,6 +129,7 @@ export default function Navbar() {
             height={32}
             priority
             className="h-8 w-auto"
+            style={{ width: 'auto' }}
           />
         </Link>
 
@@ -136,7 +137,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6 xl:gap-12">
           {/* Desktop Navigation */}
           <nav
-            className="hidden min-[1152px]:flex items-center gap-6 xl:gap-8"
+            className="hidden lg:flex items-center gap-6 xl:gap-8"
             data-testid="desktop-nav"
           >
             {navLinks.map((link) => (
@@ -222,7 +223,7 @@ export default function Navbar() {
 
           {/* Mobile Hamburger Button */}
           <button
-            className="min-[1152px]:hidden p-2 rounded-md hover:bg-gray-100 transition-colors"
+            className="lg:hidden p-2 rounded-md hover:bg-gray-100 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle navigation menu"
             aria-expanded={isMobileMenuOpen}
@@ -233,7 +234,7 @@ export default function Navbar() {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="h-6 w-6 text-[#043873]"
+              className="h-6 w-6 text-primary-dark"
             >
               {isMobileMenuOpen ? (
                 <path
@@ -258,7 +259,7 @@ export default function Navbar() {
       {/* Mobile Accordion Menu */}
       {isMobileMenuOpen && (
         <div
-          className="min-[1152px]:hidden bg-white shadow-md border-t border-gray-100"
+          className="lg:hidden bg-white shadow-md border-t border-gray-100"
           data-testid="mobile-menu"
         >
           <nav className="flex flex-col gap-1 p-4">

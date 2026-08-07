@@ -1,0 +1,125 @@
+<svg width="748" height="547" viewBox="0 0 748 547" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundal Canvas principal (Raport & dimensiuni identice 748x547) -->
+  <rect width="748" height="547" rx="20" fill="#F4F8FF"/>
+  
+  <!-- Umbră și fereastra principală Dashboard -->
+  <rect x="28" y="24" width="692" height="499" rx="16" fill="#FFFFFF" stroke="#E2EDFB" stroke-width="2"/>
+
+  <!-- Header Fereastră (Navigation Bar App) -->
+  <path d="M28 40C28 31.1634 35.1634 24 44 24H704C712.837 24 720 31.1634 720 40V72H28V40Z" fill="#043873"/>
+  
+  <!-- Butoane Window Controls -->
+  <circle cx="56" cy="48" r="6" fill="#FF5F56"/>
+  <circle cx="74" cy="48" r="6" fill="#FFE492"/>
+  <circle cx="92" cy="48" r="6" fill="#27C93F"/>
+
+  <!-- Titlu / Search Header -->
+  <rect x="124" y="38" width="180" height="20" rx="6" fill="#1B4F8A"/>
+  <rect x="580" y="36" width="116" height="24" rx="12" fill="#4F9CF9"/>
+  <circle cx="594" cy="48" r="6" fill="#FFFFFF"/>
+  <rect x="606" y="45" width="60" height="6" rx="3" fill="#FFFFFF"/>
+
+  <!-- Sidebar Stânga (Meniu de unelte & setări) -->
+  <rect x="28" y="72" width="160" height="451" fill="#F8FAFC"/>
+  
+  <!-- Item Activ Sidebar -->
+  <rect x="48" y="96" width="120" height="32" rx="8" fill="#4F9CF9" opacity="0.15"/>
+  <rect x="76" y="107" width="76" height="10" rx="5" fill="#4F9CF9"/>
+  <rect x="56" y="104" width="14" height="14" rx="3" fill="#4F9CF9"/>
+
+  <!-- Item-uri Inactive Sidebar -->
+  <rect x="56" y="152" width="14" height="14" rx="3" fill="#94A3B8"/>
+  <rect x="76" y="154" width="84" height="10" rx="5" fill="#64748B"/>
+  
+  <rect x="56" y="188" width="14" height="14" rx="3" fill="#94A3B8"/>
+  <rect x="76" y="190" width="70" height="10" rx="5" fill="#64748B"/>
+  
+  <rect x="56" y="224" width="14" height="14" rx="3" fill="#94A3B8"/>
+  <rect x="76" y="226" width="90" height="10" rx="5" fill="#64748B"/>
+
+  <!-- ZONĂ DE CONȚINUT PRINCIPAL: CUSTOMIZATION WORKSPACE -->
+  
+  <!-- Titlu Secțiune -->
+  <text x="216" y="112" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#043873">Customise Workspace &amp; Extensions</text>
+  <rect x="216" y="124" width="180" height="8" rx="4" fill="#CBD5E1"/>
+
+  <!-- Swatches Culori Teme (Dreapta sus) -->
+  <circle cx="616" cy="110" r="14" fill="#FFE492"/>
+  <circle cx="640" cy="110" r="14" fill="#4F9CF9"/>
+  <circle cx="664" cy="110" r="14" fill="#27C93F"/>
+  <circle cx="688" cy="110" r="14" fill="#043873"/>
+
+  <!-- COLOANA 1: Setări Temă & Aspect -->
+  <rect x="216" y="152" width="224" height="340" rx="10" fill="#F1F5F9"/>
+  <rect x="232" y="168" width="100" height="12" rx="6" fill="#043873"/>
+
+  <!-- Card 1: Selector Paletă de Culori -->
+  <rect x="228" y="192" width="200" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="240" y="204" width="90" height="8" rx="4" fill="#64748B"/>
+  <!-- Color Chips -->
+  <rect x="240" y="224" width="32" height="32" rx="6" fill="#4F9CF9"/>
+  <rect x="280" y="224" width="32" height="32" rx="6" fill="#FFE492"/>
+  <rect x="320" y="224" width="32" height="32" rx="6" fill="#27C93F"/>
+  <rect x="360" y="224" width="32" height="32" rx="6" fill="#043873"/>
+  <path d="M251 240L255 244L263 236" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Card 2: Control Slider & Layout Options -->
+  <rect x="228" y="304" width="200" height="172" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="240" y="318" width="110" height="8" rx="4" fill="#1E293B"/>
+  <rect x="240" y="332" width="70" height="8" rx="4" fill="#94A3B8"/>
+  
+  <!-- Sliders de ajustare -->
+  <rect x="240" y="360" width="176" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="240" y="360" width="110" height="6" rx="3" fill="#4F9CF9"/>
+  <circle cx="350" cy="363" r="8" fill="#4F9CF9"/>
+
+  <rect x="240" y="390" width="176" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="240" y="390" width="140" height="6" rx="3" fill="#4F9CF9"/>
+  <circle cx="380" cy="393" r="8" fill="#4F9CF9"/>
+
+  <!-- Toggle Switch ON -->
+  <rect x="240" y="420" width="40" height="20" rx="10" fill="#4F9CF9"/>
+  <circle cx="270" cy="430" r="7" fill="#FFFFFF"/>
+  <rect x="290" y="426" width="90" height="8" rx="4" fill="#64748B"/>
+
+
+  <!-- COLOANA 2: Extensii & Module Drag & Drop -->
+  <rect x="452" y="152" width="250" height="340" rx="10" fill="#F1F5F9"/>
+  <rect x="468" y="168" width="120" height="12" rx="6" fill="#043873"/>
+
+  <!-- Card Extension 1 (Active Plugin) -->
+  <rect x="464" y="192" width="226" height="80" rx="8" fill="#FFFFFF" stroke="#4F9CF9" stroke-width="1.5"/>
+  <rect x="476" y="204" width="28" height="28" rx="6" fill="#E2EDFB"/>
+  <rect x="484" y="212" width="12" height="12" rx="2" fill="#4F9CF9"/>
+  <rect x="514" y="206" width="100" height="10" rx="4" fill="#043873"/>
+  <rect x="514" y="222" width="80" height="8" rx="4" fill="#94A3B8"/>
+  <!-- Toggle Active -->
+  <rect x="638" y="208" width="38" height="20" rx="10" fill="#27C93F"/>
+  <circle cx="666" cy="218" r="7" fill="#FFFFFF"/>
+
+  <!-- Card Extension 2 -->
+  <rect x="464" y="280" width="226" height="80" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="476" y="292" width="28" height="28" rx="6" fill="#FEF3C7"/>
+  <rect x="484" y="300" width="12" height="12" rx="2" fill="#FFE492"/>
+  <rect x="514" y="294" width="90" height="10" rx="4" fill="#1E293B"/>
+  <rect x="514" y="310" width="70" height="8" rx="4" fill="#94A3B8"/>
+  <!-- Toggle Inactive -->
+  <rect x="638" y="296" width="38" height="20" rx="10" fill="#CBD5E1"/>
+  <circle cx="648" cy="306" r="7" fill="#FFFFFF"/>
+
+
+  <!-- WIDGET FLOTANT (Identic ca poziție și umbră cu cel din referință) -->
+  <g filter="url(#shadow-customise)">
+    <rect x="460" y="380" width="210" height="90" rx="12" fill="#043873"/>
+    <text x="478" y="406" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#FFE492">Flexibility &amp; Plugins</text>
+    <text x="478" y="434" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">100%</text>
+    <text x="545" y="432" font-family="system-ui, sans-serif" font-weight="400" font-size="11" fill="#93C5FD">customizable UI</text>
+    <path d="M600 445 C 620 430, 630 435, 650 410" stroke="#FFE492" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <defs>
+    <filter id="shadow-customise" x="440" y="365" width="250" height="130" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#043873" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+</svg>

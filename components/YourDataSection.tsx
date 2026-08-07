@@ -2,11 +2,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function CustomizeSection() {
+export default function YourDataSection() {
   return (
     <section
       className="w-full bg-white relative overflow-hidden py-12 md:py-20 lg:py-32"
-      data-testid="customize-section"
+      data-testid="project-management-section"
     >
       <div className="max-w-[1480px] w-full mx-auto px-4 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
@@ -14,26 +14,27 @@ export default function CustomizeSection() {
           <div className="w-full lg:w-1/2 flex flex-col lg:items-start items-center max-w-[650px]">
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-black leading-[1.15] mb-6 text-center lg:text-left"
-              data-testid="customize-title"
+              data-testid="project-management-title"
             >
-              Customise it to your needs
+              100% your data
             </h1>
 
             <p
-              className="text-base sm:text-lg text-black font-normal leading-relaxed mb-8 max-w-[540px] text-center lg:text-left"
-              data-testid="customize-subtitle"
+              className="text-base sm:text-lg text-black font-normal leading-relaxed mb-8 max-w-[640px] text-center lg:text-left"
+              data-testid="project-management-subtitle"
             >
-              Customise the app with plugins, custom themes and multiple text
-              editors (Rich Text or Markdown). Or create your own scripts and
-              plugins using the Extension API.
+              The app is open source and your notes are saved to an open format,
+              so you'll always have access to them. Uses End-To-End Encryption
+              (E2EE) to secure your notes and ensure no-one but yourself can
+              access them.
             </p>
 
             <Link
               href="/signup"
               className="inline-flex items-center gap-2.5 bg-primary-light hover:brightness-95 text-white font-medium py-4 px-8 rounded-lg text-base transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-none whitespace-nowrap"
-              data-testid="customize-cta-button"
+              data-testid="project-management-cta-button"
             >
-              Let’s Go
+              Read more
               <span className="text-xl leading-none">&rarr;</span>
             </Link>
           </div>
@@ -42,12 +43,12 @@ export default function CustomizeSection() {
 
           <div
             className="w-full lg:w-1/2 flex justify-center lg:justify-end"
-            data-testid="customize-image-container"
+            data-testid="project-management-image-container"
           >
             <div className="relative w-full max-w-[748px] aspect-[748/547]">
               <Image
-                src="/images/customize-image.svg"
-                alt="Customize Image"
+                src="/images/your-data-image.svg"
+                alt="Project Management Image"
                 fill
                 className="object-contain"
                 priority
