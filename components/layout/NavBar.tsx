@@ -107,10 +107,10 @@ export default function Navbar() {
         </Link>
 
         {/* Right block */}
-        <div className="flex items-center gap-2 xl:gap-[74px] text-[18px]/[23px]">
+        <div className="flex items-center gap-1 xl:gap-[66px] text-[18px]/[23px]">
           {/* Navigation Menu Desktop (se ascunde sub XL) */}
           <nav aria-label="Main Navigation">
-            <ul className="hidden xl:flex gap-6 items-center font-dm-sans font-medium text-brand-blue">
+            <ul className="hidden xl:flex gap-[18px] items-center font-dm-sans font-medium text-brand-blue">
               {NAV_ITEMS.map((item) => (
                 <li key={item.id}>
                   {item.children && item.children.length > 0 ? (
@@ -302,7 +302,7 @@ function AuthButtons({ isMobile }: { isMobile?: boolean }) {
   const loginBtn = (
     <Link
       href="/login"
-      className="flex items-center justify-center gap-2 bg-brand-yellow h-[60px] px-[40px] rounded-lg hover:opacity-90 transition-opacity focus-visible:ring-2 focus-visible:ring-brand-yellow font-medium text-[18px] w-full md:w-auto"
+      className="flex items-center justify-center gap-2 bg-brand-yellow h-[60px] px-[40px] rounded-lg hover:opacity-90 transition-opacity focus-visible:ring-2 focus-visible:ring-brand-yellow font-medium text-[18px] tracking-normal w-full md:w-auto"
     >
       Login
     </Link>
@@ -311,7 +311,7 @@ function AuthButtons({ isMobile }: { isMobile?: boolean }) {
   const signupBtn = (
     <Link
       href="/signup"
-      className="flex items-center justify-center gap-2 bg-brand-blue h-[60px] px-[20px] tracking-normal text-white rounded-lg hover:opacity-90 transition-opacity focus-visible:ring-2 focus-visible:ring-brand-blue font-medium text-[18px] w-full md:w-auto"
+      className="flex items-center justify-center gap-2 bg-brand-blue h-[60px] px-[23px] text-white rounded-lg hover:opacity-90 transition-opacity focus-visible:ring-2 focus-visible:ring-brand-blue font-medium text-[18px] tracking-[-0.5px] w-full md:w-auto"
     >
       Try Whitepace free
       <ArrowRight className="w-4 h-4" aria-hidden="true" />
